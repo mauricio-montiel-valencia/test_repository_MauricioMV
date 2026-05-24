@@ -1,0 +1,19 @@
+READ ME
+
+Pasos para ejecutar el ejemplo:
+
+Paso 1: En MySQL crea una base de datos de nombre "presentationtest", y luego crea la siguiente tabla:
+
+CREATE TABLE `course_register` (
+  `idCourseRegister` int NOT NULL AUTO_INCREMENT,
+  `CourseName` varchar(45) NOT NULL,
+  `CourseCode` varchar(45) NOT NULL,
+  `professorCourseName` varchar(45) NOT NULL,
+  PRIMARY KEY (`idCourseRegister`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+Paso 2: Tras inicializar la BD, procede a ejecutar el programa, ya sea mediante click en el botón de play, o presionando la tecla f6, en el raro y extraño caso de que eso no funcione, 	entonces utiliza la siguiente combinación de teclas "Shift + f6" y si eso no funciona tampoco entonces "Shift + fn + f6".
+
+Paso 3: Rellena los campos solicitados de la Interfaz, y luego para guardar un curso, presiona el botón de nombre "Save Course", y si quieres limpiar todos los campos, entonces, presiona el 	botón de nombre "Clean Text Fields", cabe recalcar que la interfaz gráfica fue diseñada bajo el idioma del Inglés, es por ello que los botones mencionados están en ese idioma.
+
+Paso 4: Tras finalizar, si gusta puede revisar la BD para comprobar que los datos se insertaron a la BD exitosamente.
